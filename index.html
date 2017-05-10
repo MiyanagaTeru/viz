@@ -1,0 +1,192 @@
+<html>
+<head>
+	<script src='http://d3js.org/d3.v2.min.js'></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<script type="text/javascript" src="js/custom.js"></script>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:200,300,600,400,700,900' rel='stylesheet' type='text/css'>
+	<link type="text/css" rel="stylesheet" href="css/style.css"/>
+</head>
+
+<body>
+<!--  project_description is only for my personal homepage -->
+	<style type="text/css">
+		#project_description {
+			background: #eee;
+			padding: 20px;
+		}
+	</style>
+	<div id="project_description">This is a d3 data visualization project to display moving patterns pre and post of a technology is implemented. Select a person, then select a date. You can see that person's movement path on that day. Hover on a path to get more information. Min screen width is 1240px.</div>
+<!-- comment ends -->
+	<div id="topContainer">
+		<h1>Inner traffic map - pre and post of a technology implement</h1>
+	</div>
+
+	<div>
+		<div id="pre">
+			<div>
+				<h3>PRE</h3>
+				<div class="dropdown">
+				  <button id="dLabel-person-pre" type="button" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
+				    Person
+				    <span class="caret"></span>
+				  </button>
+				  <ul id='pre-names' class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+				    <li>person1</li>
+				    <li>person2</li>
+				    <li>person3</li>
+				  </ul>
+				</div>
+				 <div class="dropdown">
+				  <button id="dLabel-date-pre" type="button" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
+				    Dates
+				    <span class="caret"></span>
+				  </button>
+				  <ul id='pre-dates' class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+				  </ul>
+				</div>
+				<button class="togglemap"></button>
+			</div>
+			<div class="hover_path"></div>
+			<script type="text/javascript">
+				var prePersonDates={"person1":["070813","070913","071013","071213" ],"person2":["070813","071113","071213","071513","071613"],"person3":["071513","071613","071713","071813"]};
+
+				var prePerson = "";
+				var preDate = "";
+				$('#pre-names li').on('click',function() {
+					prePerson = $(this).text();
+					$('#dLabel-person-pre').text(prePerson);
+					var preDates = prePersonDates[prePerson];
+					var preDates_html_str = "";
+					$.each(preDates, function(index, d)
+					  {
+					    preDates_html_str += "<li>"+d+"</li>";
+					  });
+					$('#pre-dates').html(preDates_html_str);
+				});
+				$("#pre-dates").on('click','li',function(){
+					preDate = $(this).text();
+					$('#dLabel-date-pre').text(preDate);
+					var preFilename= 'PE_'+prePerson+'_'+preDate+'.json';
+					$("#pre .movement").remove();
+					draw("#pre", "MovementJson/"+preFilename);
+				});
+
+				$("#pre .togglemap").on('click',function(){
+							$("#pre rect").toggle();
+				});
+				var w = 600, h = 600;
+				var mapscale = 1.15;
+				var mapw = 600*mapscale, maph = 500*mapscale;
+
+				var preSvg = d3.select("#pre").append("svg")
+										   .attr("width", w)
+										   .attr("height", h);
+				preSvg.append("defs")
+				    .append('pattern')
+				    .attr('id', 'map')
+				    .attr('patternUnits', 'userSpaceOnUse')
+				    .attr('width', mapw)
+				    .attr('height', maph)
+				    .append("image")
+				    .attr("xlink:href", "map.png")
+				    .attr("opacity",0.4)
+				    .attr("x",-87)
+				    .attr("y",0)
+				    .attr('width', mapw)
+				    .attr('height', maph);
+				preSvg.append("rect")
+				    .attr("x",-87)
+				    .attr("y",0)
+				    .attr('width', mapw)
+				    .attr('height', maph)
+				   .attr("fill", "url(#map)");
+			</script>
+		</div>
+		<div id="post">
+			<div>
+				<h3>POST</h3>
+				<div class="dropdown">
+				  <button id="dLabel-person-post" type="button" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
+				    Person
+				    <span class="caret"></span>
+				  </button>
+				  <ul id='post-names' class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+				    <li>person1</li>
+				    <li>person2</li>
+				    <li>person3</li>
+				  </ul>
+				</div>
+				 <div class="dropdown">
+				  <button id="dLabel-date-post" type="button" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
+				    Dates
+				    <span class="caret"></span>
+				  </button>
+				  <ul id='post-dates' class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+				  </ul>
+				</div>
+				<button class="togglemap"></button>
+			</div>
+			<div class="hover_path"></div>
+			<script type="text/javascript">
+				var postPersonDates={"person1":["111813","111913","112013","112113"],"person2":["111313","111413","111513","120213","120413"],"person3":["120213","120513"]};
+
+				var postPerson = "";
+				var postDate = "";
+				$('#post-names li').on('click',function() {
+					postPerson = $(this).text();
+					$('#dLabel-person-post').text(postPerson);
+					var postDates = postPersonDates[postPerson];
+					var postDates_html_str = "";
+					$.each(postDates, function(index, d)
+					  {
+					    postDates_html_str += "<li>"+d+"</li>";
+					  });
+					$('#post-dates').html(postDates_html_str);
+				});
+				$("#post-dates").on('click','li',function(){
+					postDate = $(this).text();
+					$('#dLabel-date-post').text(postDate);
+					var postFilename= 'PO_'+postPerson+'_'+postDate+'.json';
+					$("#post .movement").remove();
+					draw("#post", "MovementJson/"+postFilename);
+				});
+
+				$("#post .togglemap").on('click',function(){
+							$("#post rect").toggle();
+				});
+				var w = 600, h = 600;
+				var mapscale = 1.15;
+				var mapw = 600*mapscale, maph = 500*mapscale;
+
+				var postSvg = d3.select("#post").append("svg")
+										   .attr("width", w)
+										   .attr("height", h);
+				postSvg.append("defs")
+				    .append('pattern')
+				    .attr('id', 'map')
+				    .attr('patternUnits', 'userSpaceOnUse')
+				    .attr('width', mapw)
+				    .attr('height', maph)
+				    .append("image")
+				    .attr("xlink:href", "map.png")
+				    .attr("opacity",0.4)
+				    .attr("x",-87)
+				    .attr("y",0)
+				    .attr('width', mapw)
+				    .attr('height', maph);
+				postSvg.append("rect")
+				    .attr("x",-87)
+				    .attr("y",0)
+				    .attr('width', mapw)
+				    .attr('height', maph)
+				   .attr("fill", "url(#map)");
+			</script>
+		</div>
+	</div>
+</body>
+</html>

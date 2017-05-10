@@ -1,0 +1,33 @@
+[
+    {
+        "source":  "Dr.A\u0027s office",
+        "target":  "Work station",
+        "movements":  "1"
+    },
+    {
+        "source":  "Exam room #12",
+        "target":  "Work station",
+        "movements":  "1"
+    },
+    {
+        "source":  "Exam room #13",
+        "target":  "Work station",
+        "movements":  "1"
+    },
+    {
+        "source":  "Nurses Station",
+        "target":  "Dr.A\u0027s office",
+        "movements":  "1"
+    },
+    {
+        "source":  "Work station",
+        "target":  "Dr.A\u0027s office",
+        "movements":  "1"
+    },
+    {
+        "source":  "Work station",
+        "target":  "Exam room #12",
+        "movements":  "1"
+    }
+  
+]

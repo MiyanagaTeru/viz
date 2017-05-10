@@ -1,0 +1,139 @@
+body{
+	margin: 10px 15px;
+}
+
+
+#topContainer{
+	width: 100%;
+	height: 96px;
+	border-bottom: 1px solid #eee;
+	margin-bottom: 30px;
+}
+
+h1 {
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 600;
+	font-size: 1.6em;
+	line-height: 86px;
+	display: inline-block;
+	margin: 0;
+	-webkit-margin-before: 0em;
+	-webkit-margin-after: 0em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	position: relative;
+}
+
+header{
+	position: relative;
+}
+
+
+#topNav{
+	display: inline-block;
+	width: 60%;
+	height: auto;
+}
+
+
+.dropdown{
+	display: inline-block;
+	width: 140px;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 400;
+}
+
+.dropdown button{
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  color: #454545;
+  font-size: 1em;
+  line-height: 5px;
+  background: #ffffff;
+  padding: 10px 20px 10px 20px;
+  border: solid #dedede 1px;
+  text-decoration: none;
+}
+
+.dropdown button:focus {
+    outline: 0;
+}
+
+.dropdown-menu{
+	height: auto;
+}
+
+.dropdown-menu li{
+	line-height: 2.2em;
+	padding-left: .5em;
+	cursor: pointer;
+	font-size: 1em;
+}
+
+.dropdown-menu li:hover{
+	background-color:#eee;
+}
+
+button{
+	width: 140px;
+	height: 28px;
+}
+
+#pre {
+	width: 48.2%;
+	height: 640px;
+	display: inline-block;
+	margin-right:1%;
+}
+
+#post {
+	width: 48.2%;
+	height: 640px;
+	display: inline-block;
+	margin-left:1%;
+}
+
+.hover_path {
+	padding: 5px 0 0 0;
+	font-size: 12px;
+	height: 55px;
+}
+.hover_path p {
+	margin: 0;
+}
+
+.togglemap{
+	margin-left: 160px;
+	-webkit-border-radius: 4;
+    -moz-border-radius: 4;
+    border-radius: 4px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    color: #454545;
+    font-size: 1em;
+    line-height: 5px;
+    background: #ffffff;
+    padding: 10px 20px 10px 20px;
+    border: solid #dedede 1px;
+    text-decoration: none;
+    width: 40px;
+    background-image: url('../mapIcon.png');
+    background-size: 16px 16px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#togglemap:focus {
+    outline: 0;
+}
+
+.roomcircle,
+.movement {
+	cursor: pointer;
+}
+

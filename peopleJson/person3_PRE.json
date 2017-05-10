@@ -1,0 +1,944 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "size": 16,
+              "name": "Alone",
+              "description": "Alone"
+            }
+          ],
+          "name": "Walking",
+          "description": "Walking"
+        },
+        {
+          "children": [
+            {
+              "size": 42,
+              "name": "Co-worker",
+              "description": "Co-worker"
+            }
+          ],
+          "name": "Talking",
+          "description": "Talking"
+        }
+      ],
+      "name": "P_Nurses Station",
+      "description": "P_Nurses Station"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "size": 39,
+              "name": "Physical exam",
+              "description": "Physical exam"
+            }
+          ],
+          "name": "Performing",
+          "description": "Performing"
+        },
+        {
+          "children": [
+            {
+              "size": 21,
+              "name": "Login",
+              "description": "Login"
+            },
+            {
+              "size": 34,
+              "name": "Entering",
+              "description": "Entering"
+            },
+            {
+              "size": 39,
+              "name": "Reading",
+              "description": "Reading"
+            },
+            {
+              "size": 4,
+              "name": "Printing",
+              "description": "Printing"
+            }
+          ],
+          "name": "Computer",
+          "description": "Computer"
+        },
+        {
+          "children": [
+            {
+              "size": 3,
+              "name": "Writing",
+              "description": "Writing"
+            },
+            {
+              "size": 1,
+              "name": "Retrieving/Accepting",
+              "description": "Retrieving/Accepting"
+            },
+            {
+              "size": 24,
+              "name": "Reading/Writing",
+              "description": "Reading/Writing"
+            }
+          ],
+          "name": "Paper",
+          "description": "Paper"
+        },
+        {
+          "children": [
+            {
+              "size": 41,
+              "name": "With patient",
+              "description": "With patient"
+            },
+            {
+              "size": 9,
+              "name": "Alone",
+              "description": "Alone"
+            }
+          ],
+          "name": "Walking",
+          "description": "Walking"
+        },
+        {
+          "children": [
+            {
+              "size": 21,
+              "name": "Co-worker",
+              "description": "Co-worker"
+            },
+            {
+              "size": 72,
+              "name": "Patient",
+              "description": "Patient"
+            }
+          ],
+          "name": "Talking",
+          "description": "Talking"
+        }
+      ],
+      "name": "FaPP_Exam room #5",
+      "description": "FaPP_Exam room #5"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "size": 24,
+              "name": "Hand sanitization",
+              "description": "Hand sanitization"
+            }
+          ],
+          "name": "Performing",
+          "description": "Performing"
+        },
+        {
+          "children": [
+            {
+              "size": 6,
+              "name": "Login",
+              "description": "Login"
+            },
+            {
+              "size": 103,
+              "name": "Entering",
+              "description": "Entering"
+            },
+            {
+              "size": 13,
+              "name": "Reading",
+              "description": "Reading"
+            }
+          ],
+          "name": "Computer",
+          "description": "Computer"
+        },
+        {
+          "children": [
+            {
+              "size": 1,
+              "name": "Reading/Writing",
+              "description": "Reading/Writing"
+            }
+          ],
+          "name": "Paper",
+          "description": "Paper"
+        },
+        {
+          "children": [
+            {
+              "size": 3,
+              "name": "Alone",
+              "description": "Alone"
+            }
+          ],
+          "name": "Walking",
+          "description": "Walking"
+        },
+        {
+          "children": [
+            {
+              "size": 452,
+              "name": "Patient",
+              "description": "Patient"
+            }
+          ],
+          "name": "Talking",
+          "description": "Talking"
+        }
+      ],
+      "name": "FaPP_Exam room #6",
+      "description": "FaPP_Exam room #6"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "size": 2,
+              "name": "Logout",
+              "description": "Logout"
+            },
+            {
+              "size": 5,
+              "name": "Login",
+              "description": "Login"
+            },
+            {
+              "size": 38,
+              "name": "Entering",
+              "description": "Entering"
+            },
+            {
+              "size": 19,
+              "name": "Reading",
+              "description": "Reading"
+            },
+            {
+              "size": 6,
+              "name": "Printing",
+              "description": "Printing"
+            },
+            {
+              "size": 52,
+              "name": "Processing",
+              "description": "Processing"
+            }
+          ],
+          "name": "Computer",
+          "description": "Computer"
+        },
+        {
+          "children": [
+            {
+              "size": 232,
+              "name": "Answering",
+              "description": "Answering"
+            }
+          ],
+          "name": "Phone",
+          "description": "Phone"
+        },
+        {
+          "children": [
+            {
+              "size": 48,
+              "name": "Writing",
+              "description": "Writing"
+            },
+            {
+              "size": 15,
+              "name": "Reading Reference",
+              "description": "Reading Reference"
+            },
+            {
+              "size": 66,
+              "name": "Reading/Writing",
+              "description": "Reading/Writing"
+            }
+          ],
+          "name": "Paper",
+          "description": "Paper"
+        },
+        {
+          "children": [
+            {
+              "size": 4,
+              "name": "With patient",
+              "description": "With patient"
+            },
+            {
+              "size": 10,
+              "name": "With co-worker",
+              "description": "With co-worker"
+            },
+            {
+              "size": 3,
+              "name": "Alone",
+              "description": "Alone"
+            }
+          ],
+          "name": "Walking",
+          "description": "Walking"
+        },
+        {
+          "children": [
+            {
+              "size": 2,
+              "name": "Co-worker",
+              "description": "Co-worker"
+            },
+            {
+              "size": 173,
+              "name": "Patient",
+              "description": "Patient"
+            }
+          ],
+          "name": "Talking",
+          "description": "Talking"
+        },
+        {
+          "children": [
+            {
+              "size": 23,
+              "name": "Hand sanitization",
+              "description": "Hand sanitization"
+            },
+            {
+              "size": 133,
+              "name": "Medical procedure",
+              "description": "Medical procedure"
+            },
+            {
+              "size": 71,
+              "name": "Physical exam",
+              "description": "Physical exam"
+            }
+          ],
+          "name": "Performing",
+          "description": "Performing"
+        }
+      ],
+      "name": "FaPP_Exam room #7",
+      "description": "FaPP_Exam room #7"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "size": 4,
+              "name": "Login",
+              "description": "Login"
+            },
+            {
+              "size": 109,
+              "name": "Entering",
+              "description": "Entering"
+            },
+            {
+              "size": 39,
+              "name": "Reading",
+              "description": "Reading"
+            },
+            {
+              "size": 44,
+              "name": "Printing",
+              "description": "Printing"
+            }
+          ],
+          "name": "Computer",
+          "description": "Computer"
+        },
+        {
+          "children": [
+            {
+              "size": 346,
+              "name": "Dictating",
+              "description": "Dictating"
+            }
+          ],
+          "name": "Dictating",
+          "description": "Dictating"
+        },
+        {
+          "children": [
+            {
+              "size": 5,
+              "name": "Answering",
+              "description": "Answering"
+            },
+            {
+              "size": 363,
+              "name": "Calling",
+              "description": "Calling"
+            }
+          ],
+          "name": "Phone",
+          "description": "Phone"
+        },
+        {
+          "children": [
+            {
+              "size": 167,
+              "name": "Writing",
+              "description": "Writing"
+            },
+            {
+              "size": 2,
+              "name": "Retrieving/Accepting",
+              "description": "Retrieving/Accepting"
+            },
+            {
+              "size": 129,
+              "name": "Sorting/Filing/Delivering",
+              "description": "Sorting/Filing/Delivering"
+            },
+            {
+              "size": 11,
+              "name": "Reading Reference",
+              "description": "Reading Reference"
+            },
+            {
+              "size": 162,
+              "name": "Reading/Writing",
+              "description": "Reading/Writing"
+            }
+          ],
+          "name": "Paper",
+          "description": "Paper"
+        },
+        {
+          "children": [
+            {
+              "size": 29,
+              "name": "With patient",
+              "description": "With patient"
+            },
+            {
+              "size": 3,
+              "name": "With co-worker",
+              "description": "With co-worker"
+            },
+            {
+              "size": 8,
+              "name": "Alone",
+              "description": "Alone"
+            }
+          ],
+          "name": "Walking",
+          "description": "Walking"
+        },
+        {
+          "children": [
+            {
+              "size": 9,
+              "name": "Co-worker",
+              "description": "Co-worker"
+            },
+            {
+              "size": 1,
+              "name": "Patient",
+              "description": "Patient"
+            }
+          ],
+          "name": "Talking",
+          "description": "Talking"
+        },
+        {
+          "children": [
+            {
+              "size": 1,
+              "name": "Handling",
+              "description": "Handling"
+            },
+            {
+              "size": 25,
+              "name": "Hand sanitization",
+              "description": "Hand sanitization"
+            },
+            {
+              "size": 100,
+              "name": "Physical exam",
+              "description": "Physical exam"
+            }
+          ],
+          "name": "Performing",
+          "description": "Performing"
+        },
+        {
+          "children": [
+            {
+              "size": 144,
+              "name": "Eating/drinking + Socializing/chatting",
+              "description": "Eating/drinking + Socializing/chatting"
+            }
+          ],
+          "name": "Personal",
+          "description": "Personal"
+        }
+      ],
+      "name": "FaPP_Work station",
+      "description": "FaPP_Work station"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "size": 8,
+              "name": "Alone",
+              "description": "Alone"
+            }
+          ],
+          "name": "Walking",
+          "description": "Walking"
+        },
+        {
+          "children": [
+            {
+              "size": 91,
+              "name": "Co-worker",
+              "description": "Co-worker"
+            }
+          ],
+          "name": "Talking",
+          "description": "Talking"
+        }
+      ],
+      "name": "FaPP_E' office",
+      "description": "FaPP_E' office"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "size": 164,
+              "name": "Reading/Writing",
+              "description": "Reading/Writing"
+            }
+          ],
+          "name": "Paper",
+          "description": "Paper"
+        },
+        {
+          "children": [
+            {
+              "size": 42,
+              "name": "With patient",
+              "description": "With patient"
+            },
+            {
+              "size": 31,
+              "name": "Alone",
+              "description": "Alone"
+            }
+          ],
+          "name": "Walking",
+          "description": "Walking"
+        },
+        {
+          "children": [
+            {
+              "size": 196,
+              "name": "Patient",
+              "description": "Patient"
+            }
+          ],
+          "name": "Talking",
+          "description": "Talking"
+        }
+      ],
+      "name": "Rece_Waiting Area",
+      "description": "Rece_Waiting Area"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "size": 595,
+              "name": "Eating/drinking + Socializing/chatting",
+              "description": "Eating/drinking + Socializing/chatting"
+            }
+          ],
+          "name": "Personal",
+          "description": "Personal"
+        },
+        {
+          "children": [
+            {
+              "size": 98,
+              "name": "Calling",
+              "description": "Calling"
+            }
+          ],
+          "name": "Phone",
+          "description": "Phone"
+        },
+        {
+          "children": [
+            {
+              "size": 3,
+              "name": "Alone",
+              "description": "Alone"
+            }
+          ],
+          "name": "Walking",
+          "description": "Walking"
+        },
+        {
+          "children": [
+            {
+              "size": 85,
+              "name": "Co-worker",
+              "description": "Co-worker"
+            }
+          ],
+          "name": "Talking",
+          "description": "Talking"
+        }
+      ],
+      "name": "FaPP_Dr.D's office",
+      "description": "FaPP_Dr.D's office"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "size": 8,
+              "name": "Login",
+              "description": "Login"
+            },
+            {
+              "size": 27,
+              "name": "Entering",
+              "description": "Entering"
+            },
+            {
+              "size": 32,
+              "name": "Reading",
+              "description": "Reading"
+            },
+            {
+              "size": 5,
+              "name": "Printing",
+              "description": "Printing"
+            }
+          ],
+          "name": "Computer",
+          "description": "Computer"
+        },
+        {
+          "children": [
+            {
+              "size": 132,
+              "name": "Answering",
+              "description": "Answering"
+            }
+          ],
+          "name": "Phone",
+          "description": "Phone"
+        },
+        {
+          "children": [
+            {
+              "size": 32,
+              "name": "Writing",
+              "description": "Writing"
+            },
+            {
+              "size": 21,
+              "name": "Sorting/Filing/Delivering",
+              "description": "Sorting/Filing/Delivering"
+            },
+            {
+              "size": 51,
+              "name": "Reading/Writing",
+              "description": "Reading/Writing"
+            }
+          ],
+          "name": "Paper",
+          "description": "Paper"
+        },
+        {
+          "children": [
+            {
+              "size": 27,
+              "name": "With patient",
+              "description": "With patient"
+            },
+            {
+              "size": 2,
+              "name": "Alone",
+              "description": "Alone"
+            }
+          ],
+          "name": "Walking",
+          "description": "Walking"
+        },
+        {
+          "children": [
+            {
+              "size": 15,
+              "name": "Co-worker",
+              "description": "Co-worker"
+            },
+            {
+              "size": 8,
+              "name": "Patient",
+              "description": "Patient"
+            }
+          ],
+          "name": "Talking",
+          "description": "Talking"
+        },
+        {
+          "children": [
+            {
+              "size": 1,
+              "name": "Handling",
+              "description": "Handling"
+            },
+            {
+              "size": 12,
+              "name": "Hand sanitization",
+              "description": "Hand sanitization"
+            },
+            {
+              "size": 74,
+              "name": "Medical procedure",
+              "description": "Medical procedure"
+            },
+            {
+              "size": 76,
+              "name": "Physical exam",
+              "description": "Physical exam"
+            }
+          ],
+          "name": "Performing",
+          "description": "Performing"
+        }
+      ],
+      "name": "FaPP_Exam room #8",
+      "description": "FaPP_Exam room #8"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "size": 44,
+              "name": "Hand sanitization",
+              "description": "Hand sanitization"
+            }
+          ],
+          "name": "Performing",
+          "description": "Performing"
+        },
+        {
+          "children": [
+            {
+              "size": 365,
+              "name": "Meeting",
+              "description": "Meeting"
+            }
+          ],
+          "name": "Meeing",
+          "description": "Meeing"
+        },
+        {
+          "children": [
+            {
+              "size": 27,
+              "name": "With co-worker",
+              "description": "With co-worker"
+            },
+            {
+              "size": 47,
+              "name": "Alone",
+              "description": "Alone"
+            }
+          ],
+          "name": "Walking",
+          "description": "Walking"
+        },
+        {
+          "children": [
+            {
+              "size": 22,
+              "name": "Co-worker",
+              "description": "Co-worker"
+            }
+          ],
+          "name": "Talking",
+          "description": "Talking"
+        }
+      ],
+      "name": "Conf_Conference/Break Room",
+      "description": "Conf_Conference/Break Room"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "size": 1,
+              "name": "Reading/Writing",
+              "description": "Reading/Writing"
+            }
+          ],
+          "name": "Paper",
+          "description": "Paper"
+        },
+        {
+          "children": [
+            {
+              "size": 30,
+              "name": "With patient",
+              "description": "With patient"
+            },
+            {
+              "size": 22,
+              "name": "Alone",
+              "description": "Alone"
+            }
+          ],
+          "name": "Walking",
+          "description": "Walking"
+        },
+        {
+          "children": [
+            {
+              "size": 118,
+              "name": "Co-worker",
+              "description": "Co-worker"
+            },
+            {
+              "size": 75,
+              "name": "Patient",
+              "description": "Patient"
+            }
+          ],
+          "name": "Talking",
+          "description": "Talking"
+        }
+      ],
+      "name": "Rece_Reception stations",
+      "description": "Rece_Reception stations"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "size": 20,
+              "name": "Alone",
+              "description": "Alone"
+            }
+          ],
+          "name": "Walking",
+          "description": "Walking"
+        },
+        {
+          "children": [
+            {
+              "size": 11,
+              "name": "Co-worker",
+              "description": "Co-worker"
+            }
+          ],
+          "name": "Talking",
+          "description": "Talking"
+        }
+      ],
+      "name": "Lab_Main Lab area",
+      "description": "Lab_Main Lab area"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "size": 45,
+              "name": "Eating/drinking + Socializing/chatting",
+              "description": "Eating/drinking + Socializing/chatting"
+            }
+          ],
+          "name": "Personal",
+          "description": "Personal"
+        },
+        {
+          "children": [
+            {
+              "size": 82,
+              "name": "Answering",
+              "description": "Answering"
+            }
+          ],
+          "name": "Phone",
+          "description": "Phone"
+        },
+        {
+          "children": [
+            {
+              "size": 11,
+              "name": "Writing",
+              "description": "Writing"
+            },
+            {
+              "size": 4,
+              "name": "Reading/Writing",
+              "description": "Reading/Writing"
+            }
+          ],
+          "name": "Paper",
+          "description": "Paper"
+        },
+        {
+          "children": [
+            {
+              "size": 8,
+              "name": "With co-worker",
+              "description": "With co-worker"
+            },
+            {
+              "size": 3,
+              "name": "Alone",
+              "description": "Alone"
+            }
+          ],
+          "name": "Walking",
+          "description": "Walking"
+        },
+        {
+          "children": [
+            {
+              "size": 73,
+              "name": "Co-worker",
+              "description": "Co-worker"
+            },
+            {
+              "size": 14,
+              "name": "Patient",
+              "description": "Patient"
+            }
+          ],
+          "name": "Talking",
+          "description": "Talking"
+        }
+      ],
+      "name": "FaPP_Nurses Station",
+      "description": "FaPP_Nurses Station"
+    }
+  ],
+  "name": "person3",
+  "description": "PRE"
+}

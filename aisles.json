@@ -1,0 +1,117 @@
+[
+  {
+    "number": "1",
+    "direction": "WE",
+    "across": [
+      2
+    ],
+    "x": null,
+    "y": 74,
+    "rooms": [
+      "Dr.F's office",
+      "G's office",
+      "H's Office",
+      "Infusion stations",
+      "P_Nurses Station",
+      "Exam room #1",
+      "Waiting Area"
+    ]
+  },
+  {
+    "number": "2",
+    "direction": "NS",
+    "across": [
+      1,
+      7,
+      3,
+      5
+    ],
+    "x": 474,
+    "y": null,
+    "rooms": [
+      "Main Lab area",
+      "Printer #1",
+      "Reception stations",
+      "Fax machine",
+      "Conference/Break Room",
+      "Dr.C's office",
+      "Dr.A's office",
+      "E' office",
+      "Nurses Station",
+      "Work station"      
+    ]
+  },
+  {
+    "number": "3",
+    "direction": "WE",
+    "across": [
+      4,
+      2
+    ],
+    "x": null,
+    "y": 360,
+    "rooms": [
+      "Exam room #12",
+      "Exam room #13",
+      "Exam room #14",
+      "Exam room #15"
+
+    ]
+  },
+  {
+    "number": "4",
+    "direction": "NS",
+    "across": [
+      3,
+      5
+    ],
+    "x": 354,
+    "y": null,
+    "rooms": [
+      "Exam room #11"
+    ]
+  },
+  {
+    "number": "5",
+    "direction": "WE",
+    "across": [
+      4,
+      2,
+      6
+    ],
+    "x": null,
+    "y": 423,
+    "rooms": [
+      "Exam room #5",
+      "Exam room #6",
+      "Exam room #7",
+      "Exam room #8"
+     ]
+  },
+  {
+    "number": "6",
+    "direction": "NS",
+    "across": [
+      7,
+      5
+    ],
+    "x": 544,
+    "y": null,
+    "rooms": [
+      "Exam room #3",
+      "Exam room #4",
+      "Dr.D's office"
+    ]
+  },
+  {
+    "number": "7",
+    "direction": "WE",
+    "across": [
+      2,
+      6
+    ],
+    "x": null,
+    "y": 332,
+    "rooms": []
+  }
+]

@@ -1,0 +1,147 @@
+[
+  {
+    "name": "Conference/Break Room",
+    "x": 448,
+    "y": 205
+  },
+  {
+    "name": "Dr.A's office",
+    "x": 506,
+    "y": 225
+  },
+  {
+    "name": "Dr.C's office",
+    "x": 506,
+    "y": 153
+  },
+  {
+    "name": "Dr.D's office",
+    "x": 571,
+    "y": 438
+  },
+  {
+    "name": "Exam room #11",
+    "x": 330,
+    "y": 390
+  },
+  {
+    "name": "Exam room #12",
+    "x": 379,
+    "y": 334
+  },
+  {
+    "name": "Exam room #13",
+    "x": 417,
+    "y": 334
+  },
+  {
+    "name": "Exam room #14",
+    "x": 454,
+    "y": 334
+  },
+  {
+    "name": "Exam room #15",
+    "x": 379,
+    "y": 387
+  },
+  {
+    "name": "Exam room #3",
+    "x": 571,
+    "y": 382
+  },
+  {
+    "name": "Exam room #4",
+    "x": 571,
+    "y": 418
+  },
+  {
+    "name": "Exam room #5",
+    "x": 507,
+    "y": 452
+  },
+  {
+    "name": "Exam room #6",
+    "x": 472,
+    "y": 452
+  },
+  {
+    "name": "Exam room #7",
+    "x": 437,
+    "y": 452
+  },
+  {
+    "name": "Exam room #8",
+    "x": 402,
+    "y": 452
+  },
+  {
+    "name": "Infusion stations",
+    "x": 484,
+    "y": 71
+  },
+  {
+    "name": "E' office",
+    "x": 506,
+    "y": 260
+  },
+  {
+    "name": "Main Lab area",
+    "x": 415,
+    "y": 130
+  },
+  {
+    "name": "Nurses Station",
+    "x": 487,
+    "y": 409
+  },
+  {
+    "name": "Dr.F's office",
+    "x": 232,
+    "y": 32
+  },
+  {
+    "name": "Exam room #1",
+    "x": 138,
+    "y": 104
+  },
+  {
+    "name": "G's office",
+    "x": 232,
+    "y": 47
+  },
+  {
+    "name": "P_Nurses Station",
+    "x": 102,
+    "y": 137
+  },
+  {
+    "name": "Fax machine",
+    "x": 374,
+    "y": 225
+  },
+  {
+    "name": "Printer #1",
+    "x": 366,
+    "y": 201
+  },
+  {
+    "name": "Reception stations",
+    "x": 333,
+    "y": 211
+  },
+  {
+    "name": "Waiting Area",
+    "x": 284,
+    "y": 166
+  },
+  {
+    "name": "H's Office",
+    "x": 453,
+    "y": 46
+  },
+  {
+    "name": "Work station",
+    "x": 420,
+    "y": 395
+  }
+]
